@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Taste Restaurant</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #2b2118; background: #fffaf2; }
+    header { background: #24160f; color: white; padding: 22px 6%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    header h2 { margin: 0; letter-spacing: 2px; }
+    nav a { color: white; text-decoration: none; margin: 8px; }
+    .hero { min-height: 390px; display: grid; place-content: center; text-align: center; padding: 40px 18px; color: white; background: linear-gradient(#0008,#0008), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400') center/cover; }
+    .hero h1 { font-size: clamp(32px, 6vw, 54px); margin: 0 0 12px; }
+    .hero p { font-size: 19px; }
+    .btn { display: inline-block; margin: 12px auto; padding: 13px 22px; border-radius: 6px; background: #d69b45; color: #21150d; text-decoration: none; font-weight: bold; }
+    section { padding: 48px 18px; text-align: center; }
+    .menu { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; }
+    .item { width: min(230px, 90vw); padding: 22px; background: white; border-radius: 10px; box-shadow: 0 3px 14px #00000012; }
+    footer { padding: 24px; text-align: center; color: white; background: #24160f; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>ROYAL TASTE</h2>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero" id="home">
+      <h1>Welcome to Royal Taste</h1>
+      <p>Delicious Food, Beautiful Moments</p>
+      <a class="btn" href="#menu">Explore Menu</a>
+    </div>
+    <section id="about">
+      <h2>About Our Restaurant</h2>
+      <p>Enjoy delicious food and a warm dining experience at Royal Taste.</p>
+      <p><strong>Demo website:</strong> These are sample details, not a real restaurant.</p>
+    </section>
+    <section id="menu">
+      <h2>Our Popular Menu</h2>
+      <div class="menu">
+        <div class="item"><h3>Paneer Butter Masala</h3><p>₹220</p></div>
+        <div class="item"><h3>Veg Biryani</h3><p>₹180</p></div>
+        <div class="item"><h3>Masala Dosa</h3><p>₹120</p></div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Phone: Add your business phone number</p>
+      <p>Location: Add your city and address</p>
+    </section>
+  </main>
+  <footer>© 2026 Royal Taste Restaurant | Demo Website</footer>
+</body>
+</html>
